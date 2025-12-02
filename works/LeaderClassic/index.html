@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeaderClassic</title>
+  <link rel="shortcut icon" href="img/icon/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body">
+  <div class="wrapper">
+    <header class="header">
+      <section class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <a class="burger-icon" href="#">
+              <ul class="burger-icon__list">
+                <li class="burger-icon__item"><span></span></li>
+                <li class="burger-icon__item"><span></span></li>
+              </ul>
+            </a>
+            <a href="/" class="header__logo logo">
+              <img class="header__logo-img logo__img" src="img/icon/logo.svg" alt="Логотип компании leader classic">
+              <img class="header__logo-img--mobile" src="img/icon/logo-mobile.svg"
+                alt="Логотип компании leader classic">
+              <span>LEADER<br>CLASSIC</span>
+            </a>
+            <form class="language">
+              <div class="language-flag"></div>
+              <select class="language__select" name="select">
+                <option value="RU">RU
+                </option>
+                <option value="EN">EN</option>
+              </select>
+
+            </form>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">Тарифы</a>
+              </li>
+              <li class="nav__item">
+                <a href="#bonus" class="nav__link">Бонус</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Реферальная</a>
+              </li>
+              <li class="nav__item">
+                <a href="#bid" class="nav__link">Контакты</a>
+              </li>
+              <li class="nav__item--mobile">
+                <div class="nav__buttons buttons">
+                  <div class="button-br--gradient nav__button-br--gradient">
+                    <a href="#" class="button-br nav__button-br">Войти</a>
+                  </div>
+                  <a href="#" class="button-bg nav__button-bg">Открыть счёт</a>
+                </div>
+              </li>
+            </ul>
+            <div class="header__top-buttons buttons">
+              <div class="button-br--gradient header__button-br--gradient">
+                <a href="#" class="button-br header__button-br">Войти</a>
+              </div>
+              <a href="#" class="button-bg header__button-bg">Открыть счёт</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="counter">
+        <div class="container">
+          <div class="counter__inner">
+            <div class="counter__info">
+
+              <img class="counter__info-img" src="img/decor/present.png" alt="">
+
+              <p class="counter__text"><span>Станьте миллионером с Leader Classic</span> <br> Откройте счет,
+                инвестируйте в
+                фонды Leader Classic и
+                получите шанс выиграть один из 100 000 000 ₽</p>
+            </div>
+            <div class="counter__countdown">
+              <div class="timer">
+                <div class="timer__item timer__days">00</div>
+                <div class="separator">:</div>
+                <div class="timer__item timer__hours">00</div>
+                <div class="separator">:</div>
+                <div class="timer__item timer__minutes">00</div>
+                <div class="separator">:</div>
+                <div class="timer__item timer__seconds">00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="hero header__hero">
+        <div class="container container--relative">
+          <div class="hero__inner">
+            <div class="hero__body">
+              <h1 class="hero__title">ТОП-5 акций
+                с доходностью до 10-30%
+                уже в 2022 году</h1>
+              <ul class="hero__list">
+                <li class="hero__item">Открытие брокерского счета за 5 минут без визита в офис</li>
+                <li class="hero__item">Доступ к ценным бумагам с любого устройства</li>
+                <li class="hero__item">Поддержка в чате 24/7</li>
+              </ul>
+              <div class="buttons hero__buttons">
+                <a href="#" class="button-bg hero__button-bg">Скачать ТОП-5 акций</a>
+                <div class="button-br--gradient hero__button-br--gradient">
+                  <a href="#" class="button-br hero__button-br">Открыть счёт</a>
+                </div>
+              </div>
+
+              <div class="users">
+                <ul class="users__list">
+                  <li class="users__item">
+                    <img class="users__img" src="img/content/users/1.png" alt="">
+                  </li>
+                  <li class="users__item">
+                    <img class="users__img" src="img/content/users/2.png" alt="">
+                  </li>
+                  <li class="users__item">
+                    <img class="users__img" src="img/content/users/3.png" alt="">
+                  </li>
+                </ul>
+                <p class="users__text">Сейчас инвестируют <br> 100 000+ пользователей</p>
+              </div>
+            </div>
+            <div class="hero__ellipse">
+            </div>
+            <img class="hero__row" src="img/icon/row.svg" alt="">
+            <img class="hero__iphone" src="img/decor/HeaderiPhone.png" alt="">
+          </div>
+        </div>
+      </section>
+    </header>
+    <main class="main">
+      <section class="catalog main__catalog">
+        <div class="container">
+          <div class="catalog__top">
+            <h2 class="catalog__title title">Ваши деньги способны на большее</h2>
+            <p class="catalog__title-text">Сколько бы вы заработали, инвестируй 100 000 ₽ год назад?</p>
+          </div>
+          <ul class="catalog__list">
+            <li class="catalog__item">
+              <span class="catalog__img">
+                <img src="img/icon/companies/tesla.svg" alt="Tesla">
+              </span>
+              <span class="catalog__item-procent">+83.97%</span>
+              <span class="catalog__item-profit">+72.000₽</span>
+            </li>
+            <li class="catalog__item">
+              <span class="catalog__img">
+                <img src="img/icon/companies/amazon.svg" alt="Amazon">
+              </span>
+              <span class="catalog__item-procent">+4.11%</span>
+              <span class="catalog__item-profit">+72.000₽</span>
+            </li>
+            <li class="catalog__item">
+              <span class="catalog__img">
+                <img src="img/icon/companies/apple.svg" alt="Apple">
+              </span>
+              <span class="catalog__item-procent">+26.36%</span>
+              <span class="catalog__item-profit">+72.000₽</span>
+            </li>
+            <li class="catalog__item">
+              <span class="catalog__img">
+                <img src="img/icon/companies/yandex.svg" alt="Yandex">
+              </span>
+              <span class="catalog__item-procent">+17.19%</span>
+              <span class="catalog__item-profit">+72.000₽</span>
+            </li>
+            <li class="catalog__item">
+              <span class="catalog__img">
+                <img src="img/icon/companies/facebook.svg" alt="Facebook">
+              </span>
+              <span class="catalog__item-procent">+31.32%</span>
+              <span class="catalog__item-profit">+72.000₽</span>
+            </li>
+            <li class="catalog__item">
+              <span class="catalog__img">
+                <img src="img/icon/companies/microsoft.svg" alt="Microsoft">
+              </span>
+              <span class="catalog__item-procent">+38.99%</span>
+              <span class="catalog__item-profit">+72.000₽</span>
+            </li>
+          </ul>
+          <div class="slider-blackout">
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="catalog__item">
+                    <div class="catalog__img">
+                      <img src="img/icon/companies/yandex.svg" alt="">
+                    </div>
+                    <span class="catalog__item-procent">+17.19%</span>
+                    <span class="catalog__item-profit">+72.000₽</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <li class="catalog__item">
+                    <div class="catalog__img">
+                      <img src="img/icon/companies/amazon.svg" alt="">
+                    </div>
+                    <span class="catalog__item-procent">+4.11%</span>
+                    <span class="catalog__item-profit">+72.000₽</span>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="catalog__item">
+                    <div class="catalog__img">
+                      <img src="img/icon/companies/apple.svg" alt="">
+                    </div>
+                    <span class="catalog__item-procent">+26.36%</span>
+                    <span class="catalog__item-profit">+72.000₽</span>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="catalog__item">
+                    <div class="catalog__img">
+                      <img src="img/icon/companies/yandex.svg" alt="">
+                    </div>
+                    <span class="catalog__item-procent">+17.19%</span>
+                    <span class="catalog__item-profit">+72.000₽</span>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="catalog__item">
+                    <div class="catalog__img">
+                      <img src="img/icon/companies/facebook.svg" alt="">
+                    </div>
+                    <span class="catalog__item-procent">+31.32%</span>
+                    <span class="catalog__item-profit">+72.000₽</span>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="catalog__item">
+                    <div class="catalog__img">
+                      <img src="img/icon/companies/microsoft.svg" alt="">
+                    </div>
+                    <span class="catalog__item-procent">+38.99%</span>
+                    <span class="catalog__item-profit">+72.000₽</span>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <div class="catalog__item">
+                    <div class="catalog__img">
+                      <img src="img/icon/companies/yandex.svg" alt="">
+                    </div>
+                    <span class="catalog__item-procent">+17.19%</span>
+                    <span class="catalog__item-profit">+72.000₽</span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <li class="catalog__item">
+                    <div class="catalog__img">
+                      <img src="img/icon/companies/amazon.svg" alt="">
+                    </div>
+                    <span class="catalog__item-procent">+4.11%</span>
+                    <span class="catalog__item-profit">+72.000₽</span>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="catalog__item">
+                    <div class="catalog__img">
+                      <img src="img/icon/companies/apple.svg" alt="">
+                    </div>
+                    <span class="catalog__item-procent">+26.36%</span>
+                    <span class="catalog__item-profit">+72.000₽</span>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="catalog__item">
+                    <div class="catalog__img">
+                      <img src="img/icon/companies/yandex.svg" alt="">
+                    </div>
+                    <span class="catalog__item-procent">+17.19%</span>
+                    <span class="catalog__item-profit">+72.000₽</span>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="catalog__item">
+                    <div class="catalog__img">
+                      <img src="img/icon/companies/facebook.svg" alt="">
+                    </div>
+                    <span class="catalog__item-procent">+31.32%</span>
+                    <span class="catalog__item-profit">+72.000₽</span>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="catalog__item">
+                    <div class="catalog__img">
+                      <img src="img/icon/companies/microsoft.svg" alt="">
+                    </div>
+                    <span class="catalog__item-procent">+38.99%</span>
+                    <span class="catalog__item-profit">+72.000₽</span>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="catalog__bottom">
+            <p class="catalog__text">И еще более 10 000 других ценных бумаг доступно в каталоге</p>
+            <a class="catalog__button-bg button-bg" href="#">Получить каталог</a>
+          </div>
+        </div>
+      </section>
+      <section class="tools main__tools">
+        <div class="container">
+          <h2 class="tools__title title">Большой выбор инструментов</h2>
+          <div class="tools__inner">
+            <div class="tools__item">
+              <div class="tools__img">
+                <img src="img/icon/tools/1.png" alt="">
+              </div>
+              <p class="tools__text">
+                <span>Forex</span>
+                Trade 70 major, minor & exotic currency pairs with competitive trading conditions.
+              </p>
+            </div>
+            <div class="tools__item">
+              <div class="tools__img">
+                <img src="img/icon/tools/2.png" alt="">
+              </div>
+              <p class="tools__text">
+                <span>Metals</span>
+                Trade metal commodities such as Gold, Silver & Platinum.
+              </p>
+            </div>
+            <div class="tools__item">
+              <div class="tools__img">
+                <img src="img/icon/tools/3.png" alt="">
+              </div>
+              <p class="tools__text">
+                <span>Indices</span>
+                Trade Major and Minor Index CFDs Spot and Futures from around the globe.
+              </p>
+            </div>
+            <div class="tools__item">
+              <div class="tools__img">
+                <img src="img/icon/tools/4.png" alt="">
+              </div>
+              <p class="tools__text">
+                <span>Cryptocurrencies</span>
+                Trade Bitcoin, Ether, Doge & more crypto & altcoin CFDs
+              </p>
+            </div>
+            <div class="tools__item">
+              <div class="tools__img">
+                <img src="img/icon/tools/5.png" alt="">
+              </div>
+              <p class="tools__text">
+                <span>Shares</span>
+                US, UK, France & Germany available to trade.
+              </p>
+            </div>
+            <div class="tools__item">
+              <div class="tools__img">
+                <img src="img/icon/tools/6.png" alt="">
+              </div>
+              <p class="tools__text">
+                <span>Energies</span>
+                Discover opportunities on UK & US Crude
+                Oil, as well as Natural Gas Spot and Future CFDs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="steps main__steps">
+        <div class="container">
+          <div class="steps__head">
+            <h2 class="steps__title title">Инвестиции доступные каждому</h2>
+            <p class="steps__title-text">Простой сервис с подсказками и поддержкой 24/7 на каждом этапе</p>
+          </div>
+          <div class="steps__inner">
+            <div class="steps__item steps__item--one">
+              <span class="steps__step">
+                ШАГ 1
+              </span>
+              <p class="steps__text steps__text--bottom">
+                <span>Заполнить регистрационную анкету</span>
+                Нужно указать основные данные о себе: имя, номер телефона, e-mail и пароль для входа.
+              </p>
+            </div>
+            <div class="steps__item steps__item--two">
+              <span class="steps__step">
+                ШАГ 2
+              </span>
+              <p class="steps__text">
+                <span>Внести деньги на счет</span>
+                Вы можете использовать несколько платежных систем для пополнения депозита, включая систему MidexPay и
+                кошелек Bitcoin.
+              </p>
+            </div>
+            <div class="steps__item steps__item--three">
+              <span class="steps__step">
+                ШАГ 3
+              </span>
+              <p class="steps__text">
+                <span>Приступить
+                  к онлайн-трейдингу</span>
+                Сразу после пополнения депозита торговля через веб-терминал или мобильную платформу будет доступна.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bonus main__bonus" id="bonus">
+        <div class="container container--relative">
+          <div class="bonus__content">
+            <div class="bonus__inner">
+              <h2 class="bonus__title title">Каждый достоин <br> второго шанса
+                <span class="bonus__bonus">БОНУС</span>
+              </h2>
+              <p class="bonus__text">Купите свои первые акции без риска, мы вернем
+                вам 100$ на счет в случае проигрыша </p>
+              <div class="buttons bonus__buttons">
+                <a href="#" class="button-bg bonus__button-bg">Скачать ТОП-5 акций</a>
+                <div class="button-br--gradient bonus__button-br--gradient">
+                  <a href="#" class="button-br bonus__button-br">Открыть счёт</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="bonus-right">
+            <img src="img/decor/bonus-right.png" alt="">
+          </div>
+          <div class="bonus-left">
+            <img src="img/decor/bonus-left.png" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="dignity main__dignity">
+        <div class="container">
+          <div class="dignity__title title">
+            <h2>100 000+ клиентов уже инвестируют с нами</h2>
+          </div>
+          <div class="dignity__inner">
+            <a href="#" class="dignity__item">
+              <div class="dignity__img">
+                <img src="img/icon/dignity/1.svg" alt="">
+              </div>
+              <p class="dignity__text"><span>Представительство компании в Европе</span>
+                В разных странах мира компания
+                открывает собсвенные представительства.</p>
+              <div class="dignity__more">
+                <p class="dignity__more-text">Подробнее</p> <span>→</span>
+              </div>
+            </a>
+            <a href="#" class="dignity__item">
+              <div class="dignity__img">
+                <img src="img/icon/dignity/2.svg" alt="">
+              </div>
+              <p class="dignity__text"><span>Мгновенный ввод и вывод средств</span>
+                0% комиссия с депозита.</p>
+              <div class="dignity__more">
+                <p class="dignity__more-text">Подробнее</p> <span>→</span>
+              </div>
+            </a>
+            <a href="#" class="dignity__item">
+              <div class="dignity__img">
+                <img src="img/icon/dignity/3.svg" alt="">
+              </div>
+              <p class="dignity__text"><span>Кредитное плечо до 1:1000</span></p>
+              <div class="dignity__more">
+                <p class="dignity__more-text">Подробнее</p> <span>→</span>
+              </div>
+            </a>
+            <a href="#" class="dignity__item">
+              <div class="dignity__img">
+                <img src="img/icon/dignity/4.svg" alt="">
+              </div>
+              <p class="dignity__text"><span>Время выполнения заказа - 30 мс</span>
+                Средний показатель по отрасли - 500 мс</p>
+              <div class="dignity__more">
+                <p class="dignity__more-text">Подробнее</p> <span>→</span>
+              </div>
+            </a>
+            <a href="#" class="dignity__item">
+              <div class="dignity__img">
+                <img src="img/icon/dignity/5.svg" alt="">
+              </div>
+              <p class="dignity__text"><span>250 торговых инструментов</span>
+                Валютные пары, акции, металлы, индексы, облигации</p>
+              <div class="dignity__more">
+                <p class="dignity__more-text">Подробнее</p> <span>→</span>
+              </div>
+            </a>
+            <a href="#" class="dignity__item">
+              <div class="dignity__img">
+                <img src="img/icon/dignity/6.svg" alt="">
+              </div>
+              <p class="dignity__text"><span>Счета в евро, рублях, долларах США</span>
+                Пополните свой счет и сэкономьте на сборах за конвертацию</p>
+              <div class="dignity__more">
+                <p class="dignity__more-text">Подробнее</p> <span>→</span>
+              </div>
+            </a>
+            <a href="#" class="dignity__item">
+              <div class="dignity__img">
+                <img src="img/icon/dignity/7.svg" alt="">
+              </div>
+              <p class="dignity__text"><span>15% бонус на первый депозит</span>
+                Может использоваться в торговле и во время просадки</p>
+              <div class="dignity__more">
+                <p class="dignity__more-text">Подробнее</p> <span>→</span>
+              </div>
+            </a>
+            <a href="#" class="dignity__item">
+              <div class="dignity__img">
+                <img src="img/icon/dignity/8.svg" alt="">
+              </div>
+              <p class="dignity__text"><span>Инновационная торговая платформа МТ5</span>
+                Доступно на IOS и Android</p>
+              <div class="dignity__more">
+                <p class="dignity__more-text">Подробнее </p> <span>→</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="briefcase main__briefcase">
+        <div class="container">
+          <div class="briefcase__inner">
+            <div class="briefcase__income">
+              <div class="briefcase__img">
+                <img src="img/icon/active.svg" alt="" class="briefcase__img-active">
+                <svg class="briefcase__progress  briefcase__progress--low" xmlns="http://www.w3.org/2000/svg"
+                  version="1.1" width="700px" height="395px">
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="var(--gradient-start, #6adb83)" />
+                      <stop offset="100%" stop-color="var(--gradient-end, #405548)" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="343" cy="410" r="340" stroke-linecap="round" transform="scale(-1, 1)"
+                    transform-origin="348 410" />
+                </svg>
+                <div class=" briefcase__info">
+                  Доходность
+                  <span class="briefcase__percent">до 5%</span>
+                  <span class="briefcase__risk">Низкий риск</span>
+                  <input class="briefcase__range" type="range" value="10" min="0" max="30" />
+                  <div class="briefcase__radios">
+                    <label> <input class="briefcase__radio" type="radio" name="briefcase" checked> Управляю деньгами
+                      сам</label>
+                    <label><input class="briefcase__radio" type="radio" name="briefcase"> Доверяю управление</label>
+                    <br>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="briefcase__content">
+              <h2 class="briefcase__title title">Подберите индивидуальный инвестиционный портфель</h2>
+              <p class="briefcase__text">Покупайте российские и иностранные акции, облигации, валюту и другие продукты в
+                простом и удобном мобильном приложении для iOS и Android</p>
+              <a href="#" class="button-bg briefcase__button-bg">Получить портфель</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="info main__info">
+        <div class="container">
+          <div class="info__inner">
+            <div class="info__item">
+              <span class="info__digit title">60 000</span>
+              <p class="info__text">Активных инвесторов</p>
+            </div>
+            <div class="info__item">
+              <span class="info__digit title">150+</span>
+              <p class="info__text">Торговых инструментов</p>
+            </div>
+            <div class="info__item">
+              <span class="info__digit title">183 000 USD</span>
+              <p class="info__text">Финансовый результат <br> одного из инвесторов</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="telephon main__telephon">
+        <div class="container">
+          <div class="telephon__inner">
+            <div class="telephon__info">
+              <h2 class="telephon__title title">Инвестируйте с телефона</h2>
+              <p class="telephon__text">Покупайте российские и иностранные акции, облигации, валюту и другие продукты в
+                простом и удобном мобильном приложении для iOS
+                и Android.</p>
+            </div>
+            <div class="telephon__img">
+              <img src="img/decor/devices.png" alt="Девайсы/телфоны">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="app main__app">
+        <div class="container">
+          <div class="app__inner">
+            <div class="app__img">
+              <img src="img/decor/iPhone.png" alt="">
+            </div>
+            <div class="app__info">
+              <h2 class="app__title title">Инвестируйте с телефона</h2>
+              <p class="app__text">Покупайте российские и иностранные акции, облигации, валюту и другие продукты в
+                простом и удобном мобильном приложении для iOS
+                и Android.</p>
+              <div class="app__buttons">
+                <a href="" class="app__button">
+                  <img src="img/icon/system/ios.svg" alt="">
+                  Скачать для IOS
+                </a>
+                <a href="" class="app__button">
+                  <img src="img/icon/system/android.svg" alt="">
+                  Скачать для Android
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="questions main__questions">
+        <div class="container">
+          <div class="questions__inner">
+            <div class="questions__info">
+              <div class="questions__info-top">
+                <h2 class="questions__title title">Мне только спросить</h2>
+                <p class="questions__text">Собрали в подсказках ответы на популярные вопросы
+                  об инвестициях и сервисе</p>
+              </div>
+              <div class="button-bg questions__button-bg">Получить консультацию</div>
+            </div>
+            <ul class="accordion-list">
+              <li class="accordion-list__item">
+                <button class="accordion-list__control" type="button">
+                  <span class="accordion-list__control-left">
+                    <div class="accordion-list__control-questions-sign">
+                      <span>?</span>
+                    </div>
+                    <p>Есть ли плата за обслуживание?</p>
+                  </span>
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="22.5" stroke="#272932" stroke-width="3" />
+                    <line x1="14.4142" y1="19.5858" x2="25.3277" y2="30.4993" stroke="#272932" stroke-width="4" />
+                    <line x1="22.6486" y1="30.723" x2="34.6486" y2="19.723" stroke="#272932" stroke-width="4" />
+                  </svg>
+                </button>
+                <div class="accordion-list__content">
+                  <div class="accordion-content">
+                    ❝ Стопка свежеиспечённых вафель в лесной глуши. Тебе не кажется это чуточку подозрительным? ❞
+                    <img src="img/content/accordion.png" alt="">
+                  </div>
+                </div>
+              </li>
+              <li class="accordion-list__item">
+                <button class="accordion-list__control" type="button">
+                  <span class="accordion-list__control-left">
+                    <div class="accordion-list__control-questions-sign">
+                      <span>?</span>
+                    </div>
+                    <p>Как вывести деньги со счёта?</p>
+                  </span>
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="22.5" stroke="#272932" stroke-width="3" />
+                    <line x1="14.4142" y1="19.5858" x2="25.3277" y2="30.4993" stroke="#272932" stroke-width="4" />
+                    <line x1="22.6486" y1="30.723" x2="34.6486" y2="19.723" stroke="#272932" stroke-width="4" />
+                  </svg>
+                </button>
+                <div class="accordion-list__content">
+                  <div class="accordion-content">
+                    ❝ Стопка свежеиспечённых вафель в лесной глуши. Тебе не кажется это чуточку подозрительным? ❞
+                    <img src="img/content/accordion.png" alt="">
+                  </div>
+                </div>
+              </li>
+              <li class="accordion-list__item">
+                <button class="accordion-list__control" type="button">
+                  <span class="accordion-list__control-left">
+                    <div class="accordion-list__control-questions-sign">
+                      <span>?</span>
+                    </div>
+                    <p>Какие налоги?</p>
+                  </span>
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="22.5" stroke="#272932" stroke-width="3" />
+                    <line x1="14.4142" y1="19.5858" x2="25.3277" y2="30.4993" stroke="#272932" stroke-width="4" />
+                    <line x1="22.6486" y1="30.723" x2="34.6486" y2="19.723" stroke="#272932" stroke-width="4" />
+                  </svg>
+                </button>
+                <div class="accordion-list__content">
+                  <div class="accordion-content">
+                    ❝ Стопка свежеиспечённых вафель в лесной глуши. Тебе не кажется это чуточку подозрительным? ❞
+                    <img src="img/content/accordion.png" alt="">
+                  </div>
+                </div>
+              </li>
+              <li class="accordion-list__item">
+                <button class="accordion-list__control" type="button">
+                  <span class="accordion-list__control-left">
+                    <div class="accordion-list__control-questions-sign">
+                      <span>?</span>
+                    </div>
+                    <p>Где хранятся деньги?</p>
+                  </span>
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="22.5" stroke="#272932" stroke-width="3" />
+                    <line x1="14.4142" y1="19.5858" x2="25.3277" y2="30.4993" stroke="#272932" stroke-width="4" />
+                    <line x1="22.6486" y1="30.723" x2="34.6486" y2="19.723" stroke="#272932" stroke-width="4" />
+                  </svg>
+                </button>
+                <div class="accordion-list__content">
+                  <div class="accordion-content">
+                    ❝ Стопка свежеиспечённых вафель в лесной глуши. Тебе не кажется это чуточку подозрительным? ❞
+                    <img src="img/content/accordion.png" alt="">
+                  </div>
+                </div>
+              </li>
+              <li class="accordion-list__item">
+                <button class="accordion-list__control" type="button">
+                  <span class="accordion-list__control-left">
+                    <div class="accordion-list__control-questions-sign">
+                      <span>?</span>
+                    </div>
+                    <p>Как открыть счёт?</p>
+                  </span>
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="22.5" stroke="#272932" stroke-width="3" />
+                    <line x1="14.4142" y1="19.5858" x2="25.3277" y2="30.4993" stroke="#272932" stroke-width="4" />
+                    <line x1="22.6486" y1="30.723" x2="34.6486" y2="19.723" stroke="#272932" stroke-width="4" />
+                  </svg>
+                </button>
+                <div class="accordion-list__content">
+                  <div class="accordion-content">
+                    ❝ Стопка свежеиспечённых вафель в лесной глуши. Тебе не кажется это чуточку подозрительным? ❞
+                    <img src="img/content/accordion.png" alt="">
+                  </div>
+                </div>
+              </li>
+              <li class="accordion-list__item">
+                <button class="accordion-list__control" type="button">
+                  <span class="accordion-list__control-left">
+                    <div class="accordion-list__control-questions-sign">
+                      <span>?</span>
+                    </div>
+                    <p>Как пополнить счёт?</p>
+                  </span>
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="22.5" stroke="#272932" stroke-width="3" />
+                    <line x1="14.4142" y1="19.5858" x2="25.3277" y2="30.4993" stroke="#272932" stroke-width="4" />
+                    <line x1="22.6486" y1="30.723" x2="34.6486" y2="19.723" stroke="#272932" stroke-width="4" />
+                  </svg>
+                </button>
+                <div class="accordion-list__content">
+                  <div class="accordion-content">
+                    ❝ Стопка свежеиспечённых вафель в лесной глуши. Тебе не кажется это чуточку подозрительным? ❞
+                    <img src="img/content/accordion.png" alt="">
+                  </div>
+                </div>
+              </li>
+              <li class="accordion-list__item">
+                <button class="accordion-list__control" type="button">
+                  <span class="accordion-list__control-left">
+                    <div class="accordion-list__control-questions-sign">
+                      <span>?</span>
+                    </div>
+                    <p>Что купить?</p>
+                  </span>
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="22.5" stroke="#272932" stroke-width="3" />
+                    <line x1="14.4142" y1="19.5858" x2="25.3277" y2="30.4993" stroke="#272932" stroke-width="4" />
+                    <line x1="22.6486" y1="30.723" x2="34.6486" y2="19.723" stroke="#272932" stroke-width="4" />
+                  </svg>
+                </button>
+                <div class="accordion-list__content">
+                  <div class="accordion-content">
+                    ❝ Стопка свежеиспечённых вафель в лесной глуши. Тебе не кажется это чуточку подозрительным? ❞
+                    <img src="img/content/accordion.png" alt="">
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="bid main__bid" id="bid">
+        <div class="container">
+          <h2 class="bid__title title">Оставьте заявку на открытие счёта</h2>
+          <div class="bid__inner">
+            <div class="bid__item">
+              <div class="bid__img">
+                <img src="img/icon/bid/copy.svg" alt="">
+              </div>
+              <p class="bid__text"> <span>Заполните заявку онлайн</span>Необходимо: имя, номер телефона, e-mail и пароль
+                для входа.</p>
+              <div class="bid__arrow">
+                <svg viewBox="0 0 279 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line y1="0.5" x2="279" y2="0.5" stroke="white" stroke-opacity="0.55" stroke-dasharray="10 10" />
+                </svg>
+              </div>
+            </div>
+            <div class="bid__item">
+              <div class="bid__img">
+                <img src="img/icon/bid/card.svg" alt="">
+              </div>
+              <p class="bid__text"> <span>Откроем счет
+                  за 5 минут</span>Вы можете использовать несколько платежных систем для пополнения депозита, включая
+                систему MidexPay и кошелек Bitcoin.</p>
+              <div class="bid__arrow">
+                <svg viewBox="0 0 279 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line y1="0.5" x2="279" y2="0.5" stroke="white" stroke-opacity="0.55" stroke-dasharray="10 10" />
+                </svg>
+              </div>
+            </div>
+            <div class="bid__item">
+              <div class="bid__img">
+                <img src="img/icon/bid/dolar.svg" alt="">
+              </div>
+              <p class="bid__text"> <span>Пополните счёт
+                  и начните инвестировать</span>Сразу после пополнения депозита будет доступна торговля через
+                веб-терминал или мобильную платформу.</p>
+            </div>
+          </div>
+
+          <form class="bid__form">
+            <div class="bid__form-inner">
+              <input class="bid__form-input bid__form-name" type="text" placeholder="Ваше имя:">
+              <input class="bid__form-input bid__form-tel" type="tel" placeholder="+7 --- --- -- --">
+              <input class="bid__form-input bid__form-email" type="email" placeholder="Email:">
+              <button type="submit" class="button-bg bid__form-button-bg">Оставить заявку</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__info">
+              <a class="footer__logo logo">
+                <img class="logo__img" src="img/icon/logo.svg" alt="">
+                <span>LEADER <br> CLASSIC</span>
+              </a>
+              <div class="social">
+                <a class="social__item">
+                  <img src="img/icon/socials/instagramm.svg" alt="">
+                </a>
+                <a class="social__item"><img src="img/icon/socials/facebook.svg" alt=""></a>
+                <a class="social__item"><img src="img/icon/socials/vk.svg" alt=""></a>
+                <a class="social__item"><img src="img/icon/socials/youtube.svg" alt=""></a>
+              </div>
+              <a class="footer__policy">Политика передачи данных</a>
+            </div>
+            <div class="footer__number">
+              <span>Звонок по России бесплатный</span>
+              <a href="tel:84952121671" class="footer__number-tel">8 (495) 212-16-71</a>
+              <a href="#" class="footer__button-bg button-bg">Перезвоните мне</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/inputmask.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

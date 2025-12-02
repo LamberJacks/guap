@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LamberJack</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="shortcut icon" href="avatar.jpg" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Навигация -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#home" class="logo"><span class="logo-accent">[</span>LamberJack<span class="logo-accent">]</span></a>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link"><i class="fas fa-home"></i> Главная</a></li>
+        <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> Обо мне</a></li>
+        <li><a href="#works" class="nav-link"><i class="fas fa-briefcase"></i> Работы</a></li>
+        <li><a href="#skills" class="nav-link"><i class="fas fa-code"></i> Навыки</a></li>
+        <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Контакты</a></li>
+      </ul>
+      <button class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Главная секция -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="glitch" data-text="Привет, я [Ваше Имя]">Привет, я <span class="highlight">Максим</span>
+          </h1>
+          <p class="subtitle">Веб-разработчик</p>
+          <p class="hero-description">Доброго дня! Я Frontend-разработчик, занимаюсь созданием, поддержкой и настройкой
+            веб-сайтов.
+          </p>
+          <div class="hero-buttons">
+            <a href="#works" class="btn btn-primary"><i class="fas fa-eye"></i> Смотреть работы</a>
+            <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Написать мне</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-wrapper">
+            <img src="avatar.jpg" alt="Фото профиля" class="profile-image">
+            <div class="blob"></div>
+          </div>
+
+          <div class="image-glow"></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+    </div>
+  </section>
+
+  <!-- Обо мне -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title"><span class="title-number">01.</span> Обо мне</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Чем я могу вам помочь ?</h3>
+          <p>Могу помочь вам реализовать любую идею</p>
+          <ul class="about-list">
+            <li class="about-item">- От лендингов и корпоративных сайтов до сложных интернет-магазинов</li>
+            <li class="about-item">- Сверстаю современный, адаптивный и быстрый сайт по вашему дизайну</li>
+            <li class="about-item">- Настрою или перенесу сайт на WordPress с удобной админкой</li>
+          </ul>
+          <p>
+            Готов воплтить ваш проект в жизнь, сделав его не только визуально привлекательным, но и функциональным,
+            удобным для пользователей и поисковых систем.
+          </p>
+          <div class="about-info">
+            <div class="info-item">
+              <span class="info-label"><i class="fas fa-map-marker-alt"></i> Локация:</span>
+              <span class="info-value">Санкт-Петербург</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label"><i class="fas fa-graduation-cap"></i> Образование:</span>
+              <span class="info-value">Школа 21</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-number" data-count="50">5</div>
+              <div class="stat-label">Завершенных проектов</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number" data-count="3">1,5</div>
+              <div class="stat-label">Года опыта</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Портфолио -->
+  <section id="works" class="section works">
+    <div class="container">
+      <h2 class="section-title"><span class="title-number">02.</span> Примеры работ</h2>
+      <div class="works-filter">
+
+      </div>
+      <div class="works-grid">
+        <!-- Работа 1 -->
+        <div class="work-card" data-category="web">
+          <div class="work-image">
+            <img src="works/LeaderClassic/img/icon/logo.svg" alt="Пример работы 1">
+            <div class="work-overlay">
+              <div class="work-info">
+                <h3>Лендинг по продаже акций</h3>
+                <p>Адаптивный лендинг</p>
+                <div class="work-tags">
+                  <span>HTML/CSS</span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+              <div class="work-links">
+                <a href="works/LeaderClassic/index.html" target="_blank" class="work-link"><i
+                    class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="work-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Работа 2 -->
+        <div class="work-card" data-category="app">
+          <div class="work-image">
+            <img src="works/WakeBake/img/icons/logos/logo-light.svg" alt="Пример работы 2"
+              style="width: 80%; height: auto;">
+            <div class="work-overlay">
+              <div class="work-info">
+                <h3>Лендинг для продажи курса</h3>
+                <p>Кондитерская компания</p>
+                <div class="work-tags">
+                  <span>HTML/CSS</span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+              <div class="work-links">
+                <a href="works/WakeBake/index.html" target="_blank" class="work-link"><i
+                    class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="work-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Работа 3 -->
+        <div class="work-card" data-category="design">
+          <div class="work-image">
+            <img src="works/Hazze/img/logo.png" alt="Пример работы 3" style="width: 80%; height: auto;">
+            <div class="work-overlay">
+              <div class="work-info">
+                <h3>Сайт Блог</h3>
+                <p>Блог для клуба</p>
+                <div class="work-tags">
+                  <span>HTML/CSS</span>
+                  <span>JavaScript</span>
+                  <span>WordPress</span>
+                </div>
+              </div>
+              <div class="work-links">
+                <a href="works/Hazze/index.html" target="_blank" class="work-link"><i
+                    class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="work-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- Навыки -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2 class="section-title"><span class="title-number">03.</span> Навыки и технологии</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+          <div class="skill-item">
+            <div class="skill-name">HTML</div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="95"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">CSS</div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="95"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="90"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fas fa-server"></i> Backend</h3>
+          <div class="skill-item">
+            <div class="skill-name">Python</div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="70"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">MySQL</div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">WordPress</div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="75"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fas fa-paint-brush"></i> Дизайн & Инструменты</h3>
+          <div class="skill-item">
+            <div class="skill-name">Figma</div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">Blender</div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="80"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">Photoshop</div>
+            <div class="skill-bar">
+              <div class="skill-level" data-level="75"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title"><span class="title-number">04.</span> Контакты</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Давайте создадим что-то вместе</h3>
+          <p>Готов обсудить ваш проект и предложить оптимальное решение</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:example@email.com">lalala@gmai.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Телефон</h4>
+                <a href="tel:+7XXXXXXXXXX">+7 (999) 999-99-99</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Локация</h4>
+                <span>Санкт-Петербург, Россия</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link" title="Telegram"><i class="fab fa-telegram"></i></a>
+            <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link" title="VK"><i class="fab fa-vk"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <h3>Отправьте сообщение</h3>
+          <div class="form-group">
+            <input type="text" placeholder="Ваше имя" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Ваш email" required>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Тема сообщения" required>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Отправить сообщение
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="#home" class="logo"><span class="logo-accent">[</span>LamberJack<span
+              class="logo-accent">]</span></a>
+          <p>Создаю цифровые решения с 2024 года</p>
+        </div>
+        <div class="footer-links">
+          <h4>Быстрые ссылки</h4>
+          <a href="#home">Главная</a>
+          <a href="#works">Работы</a>
+          <a href="#skills">Навыки</a>
+          <a href="#contact">Контакты</a>
+        </div>
+        <div class="footer-cta">
+          <h4>Есть проект?</h4>
+          <a href="#contact" class="btn btn-outline">Обсудить проект</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> [LamberJack]. Все права защищены.</p>
+        <p>Сайт разработан с <i class="fas fa-heart"></i> и <i class="fas fa-code"></i></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
