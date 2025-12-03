@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (menuToggle) {
     menuToggle.addEventListener('click', function () {
       navLinks.classList.toggle('active');
-      menuToggle.innerHTML = navLinks.classList.contains('active')
+      menuToggle.innerHTML = navLink.classList.contains('active')
         ? '<i class="fas fa-times"></i>'
         : '<i class="fas fa-bars"></i>';
     });
@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Активация навигации при скролле
   const sections = document.querySelectorAll('section[id]');
-  const navLinks = document.querySelectorAll('.nav-link');
+  const navLink = document.querySelectorAll('.nav-link');
 
   window.addEventListener('scroll', function () {
     let current = '';
@@ -323,7 +323,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
 
-    navLinks.forEach(link => {
+    navLink.forEach(link => {
       link.classList.remove('active');
       if (link.getAttribute('href') === `#${current}`) {
         link.classList.add('active');
